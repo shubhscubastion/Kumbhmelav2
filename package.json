@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "kumbhmela",
-=======
   "name": "kumbhmelav2",
->>>>>>> master
   "version": "0.1.0",
   "private": true,
   "dependencies": {

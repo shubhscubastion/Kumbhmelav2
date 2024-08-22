@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /*
 =============== 
 Variables
@@ -52,84 +50,11 @@ Global Styles
 ===============
 */
 
->>>>>>> master
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #f1f5f8;
-  color: #222;
-}
-
-.headset {
-  display: flex;
-  /* justify-content: center; */
-  font-size: large;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  padding: 1%;
-  width: 100%;
-  height: 90px;
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-
-}
-.tentContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create columns with a minimum width of 250px */
-  gap: 20px;               /* Space between the grid items */
-  padding: 20px;           /* Padding around the container */
-}
-
-.tentImage {
-  display: flex;
-  flex-direction: column;   /* Stack items within each card vertically */
-  align-items: center;      /* Center content within the card */
-  justify-content: space-between; /* Evenly distribute content */
-  padding: 15px;            /* Padding inside each card */
-  border: 1px solid #ccc;   /* Border around each card */
-  border-radius: 8px;       /* Rounded corners for cards */
-  background-color: #fff;   /* White background for cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  text-align: center;       /* Center text within the card */
-}
-
-.tentImage img {
-  max-width: 100%;          /* Image fills the card width */
-  height: auto;             /* Maintain aspect ratio */
-  border-radius: 5px;       /* Slightly rounded corners for images */
-}
-
-.tentImage button {
-  margin-top: 10px;         /* Space between image and button */
-  padding: 8px 12px;        /* Button padding */
-  background-color: #007bff; /* Button background color */
-  color: #fff;              /* Button text color */
-  border: none;             /* Remove default border */
-  border-radius: 5px;       /* Rounded button corners */
-  cursor: pointer;          /* Change cursor on hover */
-}
-
-.tentImage button:hover {
-  background-color: #0056b3; /* Darker button color on hover */
-}
-
-.logo{
-  display: flex;
-  height: 50px;
-  width: 100px;
-  justify-content: flex-start;
-}
-=======
 html {
   scroll-behavior: smooth;
 }
@@ -647,4 +572,3 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
->>>>>>> master
